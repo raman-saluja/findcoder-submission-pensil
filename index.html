@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/build.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -19,7 +19,7 @@
     <!-- Link to the file hosted on your server, -->
     <link rel="stylesheet" href="./assets/plugins/splide/css/splide.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
 
     <script src="./assets/plugins/splide/js/splide.min.js"></script>
 
@@ -32,23 +32,23 @@
         style="background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/img/bg-image.jpg')">
         >
 
-        <header class="text-gray-600 body-font">
+        <header class="text-gray-600 text-base body-font">
             <div class="container mx-auto flex flex-wrap p-5 px-10 md:p-5 flex-row md:flex-row items-center">
                 <a class="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0">
                     <span class="w-1/12"><img src="./assets/img/logo.png" alt=""></span>
-                    <span class="ml-3 text-xl">Code Community</span>
+                    <span class="ml-3 text-base">Code Community</span>
                 </a>
                 <nav class="ml-auto text-neutral-300 font-medium">
                     <ul>
                         <li class="px-5 pr-20">
                             <a href="#!" onclick="document.querySelector('html').classList.toggle('dark')"
-                                class="flex"><i class="mr-3" data-feather="moon" width="20" stroke-width="3"></i>
-                                <span class="hidden md:inline">Switch to dark mode</span></a>
+                                class="flex"><i class="mr-3" data-feather="moon" width="15" stroke-width="3"></i>
+                                <span class="hidden md:inline text-sm">Switch to dark mode</span></a>
                         </li>
                     </ul>
                 </nav>
                 <button
-                    class="inline-flex items-center bg-primary-300 text-gray-700 border-0 py-2 px-8 focus:outline-none hover:bg-primary-400 rounded text-base mt-0 md:mt-4 md:mt-0">
+                    class="inline-flex items-center bg-primary-300 text-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-primary-400 rounded text-sm mt-0 md:mt-4 md:mt-0">
                     Login
                 </button>
             </div>
@@ -57,11 +57,12 @@
             class="container mx-auto flex flex-wrap p-5 py-20 flex-col md:flex-row items-center text-center justify-center">
 
             <div class="w-full md:w-8/12 flex flex-wrap flex-col items-center justify-center py-0 md:py-20">
-                <h1 class="text-6xl md:text-7xl font-semibold leading-snug text-gray-100">Learn from <span
+                <h1 class="text-5xl md:text-6xl font-semibold leading-snug text-gray-100">Learn from <span
                         class="text-primary-300">anywhere</span>, <br>
                     Get <span class="text-primary-300">Help</span> from here.
                 </h1>
-                <p class="py-5 w-9/12 md:w-8/12 text-gray-300">Welcome to coder community. You might be learning from
+                <p class="py-5 w-9/12 md:w-8/12 text-sm text-gray-300">Welcome to coder community. You might be learning
+                    from
                     any place,
                     company
                     or
@@ -72,9 +73,9 @@
                 </p>
 
                 <button
-                    class="inline-flex items-center bg-primary-300 font-semibold text-gray-700 border-0 py-4 px-8 focus:outline-none hover:bg-primary-400 rounded text-lg mt-5 md:mt-3">
+                    class="inline-flex items-center bg-primary-300 font-semibold text-gray-700 border-0 py-3 px-6 focus:outline-none hover:bg-primary-400 rounded text-md mt-5 md:mt-3">
                     Explore <span class="pl-5"><i class="text-primary-900" data-feather="arrow-down"
-                            width="20"></i></span>
+                            width="15"></i></span>
                 </button>
             </div>
 
@@ -113,200 +114,206 @@
                     <div class="relative group-item sm:w-full md:w-4/12">
                         <div class="flex flex-wrap text-neutral-500 flex-row bg-white dark:bg-[#25272C] m-2">
                             <div class="w-full bg-center bg-no-repeat bg-cover "
-                                style="height: 200px; background-image: url('./assets/img/placeholder-img.png');">
+                                style="height: 150px; background-image: url('./assets/img/placeholder-img.png');">
                             </div>
 
-                            <h3 class="text-xl font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
+                            <h3 class="text-lg font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
                                 JavaScript
                                 Community</h3>
-                            <p class="hidden md:block px-5">Learn and help from each other. It doesn't matter from where
+                            <p class="hidden text-sm md:block px-5">Learn and help from each other. It doesn't matter
+                                from where
                                 you are
                                 learning,
                                 you can ask
                                 your doubts here. We all are
                                 here to help</p>
 
-                            <div class="px-5 pb-5 list-meta flex flex-wrap flex-row mt-5">
+                            <div class="px-5 pb-5 text-sm list-meta flex flex-wrap flex-row mt-5">
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="users"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp;500+
                                 </div>
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="user"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp;admin
                                 </div>
                             </div>
                         </div>
 
                         <a href="#" class="meta-icon block absolute bottom-7 right-5"><i class="text-neutral-500"
-                                data-feather="more-vertical"></i></a>
+                                data-feather="more-vertical" width="15"></i></a>
                     </div>
                     <div class="relative group-item sm:w-full md:w-4/12">
                         <div class="flex flex-wrap text-neutral-500 flex-row bg-white dark:bg-[#25272C] m-2">
                             <div class="w-full bg-center bg-no-repeat bg-cover "
-                                style="height: 200px; background-image: url('./assets/img/placeholder-img.png');">
+                                style="height: 150px; background-image: url('./assets/img/placeholder-img.png');">
                             </div>
 
-                            <h3 class="text-xl font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
+                            <h3 class="text-lg font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
                                 JavaScript
                                 Community</h3>
-                            <p class="hidden md:block px-5">Learn and help from each other. It doesn't matter from where
+                            <p class="hidden text-sm md:block px-5">Learn and help from each other. It doesn't matter
+                                from where
                                 you are
                                 learning,
                                 you can ask
                                 your doubts here. We all are
                                 here to help</p>
 
-                            <div class="px-5 pb-5 list-meta flex flex-wrap flex-row mt-5">
+                            <div class="px-5 pb-5 text-sm list-meta flex flex-wrap flex-row mt-5">
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="users"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; 500+
                                 </div>
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="user"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; admin
                                 </div>
                             </div>
                         </div>
 
                         <a href="#" class="meta-icon block absolute bottom-7 right-5"><i class="text-neutral-500"
-                                data-feather="more-vertical"></i></a>
+                                data-feather="more-vertical" width="15"></i></a>
                     </div>
                     <div class="relative group-item sm:w-full md:w-4/12">
                         <div class="flex flex-wrap text-neutral-500 flex-row bg-white dark:bg-[#25272C] m-2">
                             <div class="w-full bg-center bg-no-repeat bg-cover "
-                                style="height: 200px; background-image: url('./assets/img/placeholder-img.png');">
+                                style="height: 150px; background-image: url('./assets/img/placeholder-img.png');">
                             </div>
 
-                            <h3 class="text-xl font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
+                            <h3 class="text-lg font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
                                 JavaScript
                                 Community</h3>
-                            <p class="hidden md:block px-5">Learn and help from each other. It doesn't matter from where
+                            <p class="hidden text-sm md:block px-5">Learn and help from each other. It doesn't matter
+                                from where
                                 you are
                                 learning,
                                 you can ask
                                 your doubts here. We all are
                                 here to help</p>
 
-                            <div class="px-5 pb-5 list-meta flex flex-wrap flex-row mt-5">
+                            <div class="px-5 pb-5 text-sm list-meta flex flex-wrap flex-row mt-5">
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="users"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; 500+
                                 </div>
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="user"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; admin
                                 </div>
                             </div>
                         </div>
 
                         <a href="#" class="meta-icon block absolute bottom-7 right-5"><i class="text-neutral-500"
-                                data-feather="more-vertical"></i></a>
+                                data-feather="more-vertical" width="15"></i></a>
                     </div>
                     <div class="relative group-item sm:w-full md:w-4/12">
                         <div class="flex flex-wrap text-neutral-500 flex-row bg-white dark:bg-[#25272C] m-2">
                             <div class="w-full bg-center bg-no-repeat bg-cover "
-                                style="height: 200px; background-image: url('./assets/img/placeholder-img.png');">
+                                style="height: 150px; background-image: url('./assets/img/placeholder-img.png');">
                             </div>
 
-                            <h3 class="text-xl font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
+                            <h3 class="text-lg font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
                                 JavaScript
                                 Community</h3>
-                            <p class="hidden md:block px-5">Learn and help from each other. It doesn't matter from where
+                            <p class="hidden text-sm md:block px-5">Learn and help from each other. It doesn't matter
+                                from where
                                 you are
                                 learning,
                                 you can ask
                                 your doubts here. We all are
                                 here to help</p>
 
-                            <div class="px-5 pb-5 list-meta flex flex-wrap flex-row mt-5">
+                            <div class="px-5 pb-5 text-sm list-meta flex flex-wrap flex-row mt-5">
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="users"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; 500+
                                 </div>
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="user"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; admin
                                 </div>
                             </div>
                         </div>
 
                         <a href="#" class="meta-icon block absolute bottom-7 right-5"><i class="text-neutral-500"
-                                data-feather="more-vertical"></i></a>
+                                data-feather="more-vertical" width="15"></i></a>
                     </div>
                     <div class="relative group-item sm:w-full md:w-4/12">
                         <div class="flex flex-wrap text-neutral-500 flex-row bg-white dark:bg-[#25272C] m-2">
                             <div class="w-full bg-center bg-no-repeat bg-cover "
-                                style="height: 200px; background-image: url('./assets/img/placeholder-img.png');">
+                                style="height: 150px; background-image: url('./assets/img/placeholder-img.png');">
                             </div>
 
-                            <h3 class="text-xl font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
+                            <h3 class="text-lg font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
                                 JavaScript
                                 Community</h3>
-                            <p class="hidden md:block px-5">Learn and help from each other. It doesn't matter from where
+                            <p class="hidden text-sm md:block px-5">Learn and help from each other. It doesn't matter
+                                from where
                                 you are
                                 learning,
                                 you can ask
                                 your doubts here. We all are
                                 here to help</p>
 
-                            <div class="px-5 pb-5 list-meta flex flex-wrap flex-row mt-5">
+                            <div class="px-5 pb-5 text-sm list-meta flex flex-wrap flex-row mt-5">
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="users"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; 500+
                                 </div>
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="user"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp;&nbsp; admin
                                 </div>
                             </div>
                         </div>
 
                         <a href="#" class="meta-icon block absolute bottom-7 right-5"><i class="text-neutral-500"
-                                data-feather="more-vertical"></i></a>
+                                data-feather="more-vertical" width="15"></i></a>
                     </div>
                     <div class="relative group-item sm:w-full md:w-4/12">
                         <div class="flex flex-wrap text-neutral-500 flex-row bg-white dark:bg-[#25272C] m-2">
                             <div class="w-full bg-center bg-no-repeat bg-cover "
-                                style="height: 200px; background-image: url('./assets/img/placeholder-img.png');">
+                                style="height: 150px; background-image: url('./assets/img/placeholder-img.png');">
                             </div>
 
-                            <h3 class="text-xl font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
+                            <h3 class="text-lg font-medium pt-5 px-5 pb-3 text-gray-800 dark:text-neutral-200">
                                 JavaScript
                                 Community</h3>
-                            <p class="hidden md:block px-5">Learn and help from each other. It doesn't matter from where
+                            <p class="hidden text-sm md:block px-5">Learn and help from each other. It doesn't matter
+                                from where
                                 you are
                                 learning,
                                 you can ask
                                 your doubts here. We all are
                                 here to help</p>
 
-                            <div class="px-5 pb-5 list-meta flex flex-wrap flex-row mt-5">
+                            <div class="px-5 pb-5 text-sm list-meta flex flex-wrap flex-row mt-5">
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="users"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp; 500+
                                 </div>
                                 <div class="list-meta-item flex mr-5"><i class="text-neutral-500" data-feather="user"
-                                        width="15" class="mr-3"></i>
+                                        width="12" class="mr-3"></i>
                                     &nbsp; admin
                                 </div>
                             </div>
                         </div>
 
                         <a href="#" class="meta-icon block absolute bottom-7 right-5"><i class="text-neutral-500"
-                                data-feather="more-vertical"></i></a>
+                                data-feather="more-vertical" width="15"></i></a>
                     </div>
 
                 </div>
 
             </div>
             <div class="sm:w-full md:w-4/12 relative">
-                <div class="flex mt-5 md:mt-0 flex-wrap flex-col bg-primary-300 mx-5 p-10 px-5">
-                    <h3 class="text-2xl font-semibold mb-5">Code Community <br /> Leaderboards</h3>
+                <div class="flex mt-5 md:mt-0 flex-wrap flex-col bg-primary-300 mx-5 p-5 px-5">
+                    <h3 class="text-lg font-semibold mb-5">Code Community <br /> Leaderboards</h3>
 
                     <div class="flex flex-wrap w-full flex-col">
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -314,7 +321,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -322,7 +329,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -330,7 +337,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -338,7 +345,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -346,7 +353,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -354,7 +361,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -362,7 +369,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -370,7 +377,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -378,7 +385,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -386,7 +393,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -394,7 +401,7 @@
                             <div class="w-4/12 py-3">2461 Points</div>
                         </div>
                         <div
-                            class="item flex flex-wrap justify-between flex-row w-full relative text-lg items-center text-gray-600 font-medium">
+                            class="item flex flex-wrap justify-between flex-row w-full relative text-sm items-center text-gray-600 font-medium">
                             <div class="py-3 pr-3 md:pr-5">#01</div>
                             <img src="./assets/img/user-img.svg" class="w-1/12 inline-block" alt="User #01">
                             <div class="w-5/12 md:w-5/12 py-3"> David A. Gile
@@ -431,19 +438,20 @@
                     <div class="splide__slide review-item p-12">
 
                         <div class="flex pb-3 flex-wrap">
-                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="20"></i></span>
-                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="20"></i></span>
-                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="20"></i></span>
-                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="20"></i></span>
-                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="20"></i></span>
+                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="15"></i></span>
+                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="15"></i></span>
+                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="15"></i></span>
+                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="15"></i></span>
+                            <span class="pr-3"><i data-feather="star" color="#FCC005" width="15"></i></span>
                         </div>
-                        <p class="py-3 text-neutral-500 break-words">Lorem ipsum dolor sit amet consectetur adipisicing
+                        <p class="py-3 text-sm text-neutral-500 break-words">Lorem ipsum dolor sit amet consectetur
+                            adipisicing
                             elit. Molestiae
                             minus id
                             veritatis harum
                             facilis repellat eos neque, impedit laboriosam temporibus.</p>
-                        <h3 class="text-2xl font-medium pt-5 pb-3 text-gray-800 dark:text-gray-100">Rishab S.</h3>
-                        <h5 class="text-xl font-medium pb-5 text-neutral-500">JavaScript Community</h5>
+                        <h3 class="text-xl font-medium pt-5 pb-3 text-gray-800 dark:text-gray-100">Rishab S.</h3>
+                        <h5 class="text-md font-medium pb-5 text-neutral-500">JavaScript Community</h5>
                     </div>
 
                 </div>
@@ -461,10 +469,11 @@
                 Frequently Asked Questions
             </h1>
         </div>
-        <div class="container mx-auto flex flex-wrap flex-col md:flex-row items-start p-10 md:p-0">
+        <div class="container mx-auto flex flex-wrap flex-col justify-between md:flex-row items-start p-10 md:p-0">
 
             <div class="w-full md:w-5/12">
-                <p class="text-neutral-500 my-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                <p class="text-neutral-500 text-sm my-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam
                     nonumy eirmod
                     tempor
                     invidunt ut labore
@@ -473,14 +482,14 @@
 
                 <img src="./assets/img/faq-img-1.png" alt="Faq 1" />
             </div>
-            <div class="w-full md:w-7/12 py-20">
+            <div class="w-full md:w-6/12 py-20">
 
 
-                <div class="accordion text-md text-neutral-500" id="accordionExample">
+                <div class="accordion text-sm text-neutral-500" id="accordionExample">
                     <div class="accordion-item bg-white dark:bg-[#25272C]">
                         <h2 class="accordion-header mb-0" id="headingOne">
                             <button
-                                class="accordion-button font-semibold relative flex items-center w-full py-6 px-10 text-xl text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
+                                class="accordion-button font-semibold relative flex items-center w-full py-4 px-8 text-md text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
                                 FAQ Item #1
@@ -501,7 +510,7 @@
                     <div class="accordion-item bg-white dark:bg-[#25272C]">
                         <h2 class="accordion-header mb-0" id="headingTwo">
                             <button
-                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-6 px-10 text-xl text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
+                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-4 px-8 text-md text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                 aria-expanded="false" aria-controls="collapseTwo">
                                 FAQ Item #2
@@ -522,7 +531,7 @@
                     <div class="accordion-item bg-white dark:bg-[#25272C]">
                         <h2 class="accordion-header mb-0" id="headingThree">
                             <button
-                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-6 px-10 text-xl text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
+                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-4 px-8 text-md text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                 aria-expanded="false" aria-controls="collapseThree">
                                 FAQ Item #3
@@ -543,7 +552,7 @@
                     <div class="accordion-item bg-white dark:bg-[#25272C]">
                         <h2 class="accordion-header mb-0" id="headingFour">
                             <button
-                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-6 px-10 text-xl text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
+                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-4 px-8 text-md text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                 aria-expanded="false" aria-controls="collapseFour">
                                 FAQ Item #4
@@ -564,7 +573,7 @@
                     <div class="accordion-item bg-white dark:bg-[#25272C]">
                         <h2 class="accordion-header mb-0" id="headingFive">
                             <button
-                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-6 px-10 text-xl text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
+                                class="accordion-button collapsed font-semibold relative flex items-center w-full py-4 px-8 text-md text-neutral-500 text-left bg-white dark:bg-[#25272C] rounded-none transition focus:outline-none"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                 aria-expanded="false" aria-controls="collapseFive">
                                 FAQ Item #5
@@ -590,7 +599,7 @@
     </section>
 
     <footer class="relative text-center bg-neutral-900 py-5 flex flex-row text-gray-300">
-        <p class="w-full text-center">Copyright © 2006-2022 Corban Works, LLC</p>
+        <p class="w-full text-xs text-center">Copyright © 2006-2022 Corban Works, LLC</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
