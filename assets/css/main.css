@@ -16,3 +16,9 @@ html {
 .accordion-button:not(.collapsed) {
     color: rgb(31 41 55 / var(--tw-text-opacity));
 }
+
+.dark .accordion-button:not(.collapsed) {
+    background-color: rgb(33 34 38 / var(--tw-bg-opacity));
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    box-shadow: none;
+}
