@@ -1,0 +1,18 @@
+html {
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.section-title::after {
+    content: '';
+    margin-left: 30px;
+    width: 150px;
+    height: 20px;
+    background-image: url("../img/section-title-after.svg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(31 41 55 / var(--tw-text-opacity));
+}
